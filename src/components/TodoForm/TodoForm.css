@@ -1,0 +1,107 @@
+.modal-button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .modal-button button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #212422;
+    margin-right: 0;
+    display: flex;
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .modal-button button:hover{
+    color: #333;
+  }
+
+  .success{
+    background: #2ecc71;
+  }
+
+  .danger{
+    background: #e74c3c;
+  }
+  
+
+  .Todo__form {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 1em;
+  }
+  
+  .Todo__form label {
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #aaa;
+    font-size: 1em;
+  }
+  
+  .Todo__form input:focus + label,
+  .Todo__form input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 0;
+    transform: translateY(0);
+    font-size: 1em;
+    color: #8f8d8d;
+  }
+  
+  .Todo__form input {
+    width: 100%;
+    padding: 1em 0em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .todo__button {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  
+  .todo__button button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .todo__button .success {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .todo__button .success:hover {
+    background-color: #45a049;
+  }
+  
+  .todo__button .danger {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .todo__button .danger:hover {
+    background-color: #e53935;
+  }
+  

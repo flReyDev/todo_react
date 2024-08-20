@@ -1,0 +1,17 @@
+.loadin-indicator{
+    display: flex;
+    justify-content: center;
+}
+
+.loadin-indicator p{
+    font-weight: 700;
+}
+
+.add-todo-indicator{
+    display: flex;
+    justify-content: center;
+}
+
+.add-todo-indicator p{
+    font-weight: 700;
+}

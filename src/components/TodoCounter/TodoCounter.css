@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    padding: 1em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.footer label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+.footer label:hover{
+    color: #353333;
+}

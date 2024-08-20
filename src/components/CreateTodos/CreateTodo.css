@@ -1,0 +1,58 @@
+.task-input-add, .task-input-search {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.task-input-add::placeholder {
+    color: #bbb;
+}
+
+.task-input-search::placeholder {
+    color: #bbb;
+}
+
+.task-input-add, .task-input-search {
+    display: none;
+}
+
+/*Estilo de botones*/
+.button-gropu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.button-gropu button{
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.button-gropu button:hover{
+    background-color: #3c53c7;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.task-input-add.active, .task-input-search.active{
+    display: block;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #76d7c4;
+}
